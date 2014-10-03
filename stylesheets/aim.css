@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+/* Club top
+---------------------------------------------------------- */
+#club #contents_inner h2 {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+#club .contents_block {
+  padding-top: 8px;
+}
+
+#club .new_club_box {
+  padding-top: 0px;
+}
+
+#club .new_club_box .photo {
+  float: left;
+}
+
+#club .new_club_box .new_club_box_body {
+  margin-left: 325px;
+}
+
+#club .new_club_box .new_club_box_body .name {
+  line-height: 1.6;
+  margin-bottom: .2em;
+  color: #01418c;
+  font-size: 114.3%;
+  font-weight: bold;
+}
+
+#club .new_club_box .new_club_box_body .info {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#club .new_club_box .new_club_box_body .data {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#club .club_search_box .tab {
+  margin-bottom: 14px;
+  padding: 0 12px;
+  border-bottom: 3px solid #1e60ab;
+}
+
+#club .club_search_box .tab li {
+  float: left;
+  margin: 0 3px;
+}
+
+#club .club_search01 {
+  position: relative;
+  width: 850px;
+  height: 491px;
+  margin: 0 15px 40px;
+  background: url(../images/img_prefectural.png) no-repeat;
+}
+
+#club .club_search01 .pref_name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#club .club_search02 {
+  margin: 0 15px 40px;
+}
+
+#club .route_search {
+  position: relative;
+  overflow: hidden;
+  width: 840px;
+  height: 473px;
+  padding: 5px;
+  background: url(../images/img_frame.png) no-repeat;
+}
+
+#club .route_search_map {
+  position: relative;
+  overflow: hidden;
+  width: 840px;
+  height: 473px;
+}
+
+#club .route_search .station {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  text-indent: -9999px;
+  background: url(../img/common/bg_transmission.png) repeat;
+  z-index: 100;
+  cursor: pointer;
+}
+
+#club .route_search .balloon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  line-height: 1.4;
+  width: 230px;
+  padding: 10px;
+  color: #fff;
+  font-size: 92.9%;
+  border: 3px solid #ffae7c;
+  background-color: #fd853b;
+  box-shadow: 3px 4px 5px rgba(0,0,0,.24);
+  text-decoration: none;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#club .route_search span.balloon {
+  cursor: auto;
+}
+
+#club .route_search span.balloon a {
+  display: block;
+  color: #FFF;
+}
+
+#club .route_search .route_search_nav {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  z-index: 100;
+}
+
+#club .route_search .route_search_nav li {
+  float: left;
+  display: block;
+  margin: 0 1px;
+}
+
+#club .club_search03 {
+  margin: 0 0 40px;
+}
+
+#club .club_search03 p {
+  font-weight: bold;
+  margin: 0 0 15px 15px;
+}
+
+#club .club_search03 label {
+  float: left;
+  display: block;
+  line-height: 17px;
+  width: 168px;
+  height: 17px;
+  margin: 0 5px 10px;
+  padding: 9px 8px 9px 34px;
+  font-size: 85.7%;
+  border-radius: 5px;
+  background: #f4f4f4 url(../images/checkbox_off.png) no-repeat 8px center;
+  cursor: pointer;
+}
+
+#club .club_search03 label.check_on {
+  background: #ffd8c0 url(../images/checkbox_on.png) no-repeat 8px center;
+}
+
+#club .club_search03 label.check_l {
+  height: 34px;
+  margin-top: 10px;
+}
+
+#club .club_search03 label.row2 {
+  line-height: 34px;
+}
+
+#club .club_search03 input[type='checkbox']{
+  width: 0;
+  height: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity:0;
+  opacity:0;
+  position: absolute;
+}
+
+#club .club_search03 label span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#club .club_search03 .btn {
+  clear: both;
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#club .detail_link_list li {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Club resultarea
+---------------------------------------------------------- */
+#club .facility_name {
+  float: left;
+  line-height: 28px;
+  padding: 0 0 10px 13px;
+  font-size: 171.4%;
+  background: url(../images/bg_h2.png) no-repeat;
+}
+
+#club .area_name {
+  float: right;
+  padding-bottom: 10px;
+}
+
+#club .link_selector {
+  clear: both;
+  margin-bottom: 18px;
+  padding: 20px 15px 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+#club .link_selector li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#club .link_selector li a {
+  padding-left: 17px;
+  background: url(../img/icon/icon_circle02.png) no-repeat;
+}
+
+#club .club_list {
+  padding-bottom: 5px;
+}
+
+#club .club_list li {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+#club .club_list_box h3 {
+  margin-bottom: .8em;
+  font-size: 114.3%;
+}
+#club .club_list_box h4 a{
+  display:block;
+  line-height: 16px;
+  height: 16px;
+  padding: 7px 10px 7px 32px;
+  margin-bottom: .6em;
+  color: #fff;
+  font-size: 114.3%;
+  background: url(../images/bg_club_title_o.png) no-repeat;
+}
+#club .club_list li:hover a {
+  background: url(../images/bg_club_title_h.png) no-repeat;
+}
+
+#club .club_data {
+  line-height: 1.2;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#club .club_data th {
+  color: #0c50a0;
+  font-size: 78.6%;
+  text-align: left;
+}
+
+#club .club_data td {
+  vertical-align: top;
+}
+
+#club .club_data .address {
+  padding-right: .5em;
+}
+
+#club .club_data .tel {
+  width: 8.5em;
+}
+
+#club .club_data .time {
+  width: 18.5em;
+}
+
+#club .club_data .time span {
+  float: left;
+  display: block;
+  width: 9em;
+  margin-bottom: 3px;
+}
+
+#club .club_data .time span img {
+  margin-right: 3px;
+}
+
+#club .club_data .time .time3 {
+  clear: both;
+}
+
+#club .club_data .close {
+  width: 11em;
+}
+
+#club .facility_list ul li img {
+  display: inline-block;
+}
+
+#club .bottom_btns {
+  padding-top: 20px;
+}
+
+#club .bottom_btns li {
+  float: left;
+}
+
+#club .bottom_btns li.first {
+  margin-right: 18px;
+}
+
+#club .bottom_btns li.last {
+  margin-left: 18px;
+}
+/* Club resultarea譬ｪ荳ｻ蜆ｪ蠕・ｸ隕ｧ逕ｨ
+---------------------------------------------------------- */
+#club .club_list .column2{
+  width:415px;
+  float:left;
+  margin-bottom:20px
+}
+#club .club_list .column2+.column2{
+  margin-left:20px
+}
+#club .club_list .column2 h5{
+  color: #0C50A0;
+  font-size: 1em;
+  margin: 15px 0;
+}
+#club div.club_list_box ul.club_list ul.shareholders li{
+  margin: 0 0 5px;
+  line-height: 1.4;
+}
