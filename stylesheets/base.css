@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* ---------------------
+ * FOR ZICKRATO STYLE *
+ * ------------------ */
+/* ========BASIC======== */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, p, table, th, td address {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+}
+html {
+  background: #FFF;
+  color: #000;
+}
+body {
+  font:16px "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+img, a img {
+  vertical-align:bottom;
+  border:none;
+  background:transparent;
+}
+table {
+  border-collapse:collapse;
+  border:none;
+  border-spacing:0;
+}
+th, td {
+  vertical-align:top;
+}
+button, fieldset, form, input, label, legend, select, textarea {
+  font-family:inherit;
+  font-size:100%;
+  font-style:inherit;
+  font-weight:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:inherit;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+/* ========COLOR&FONT STAYLE======== */
+body {
+  color: #222;
+  line-height: 1.6;
+}
+a {
+  color: #B6282C;
+  text-decoration: none;
+  outline:none;
+}
+a:hover {
+  color: #B6282C;
+  text-decoration: none;
+}
+/* ========Clear Setting======== */
+div.clear {
+  clear: both;
+  font-size: 0;
+}
+/* ========Clear Fix======== */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background: #111;
+}
+.container {
+  width: 100%;
+  width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  background: #111;
+  height: 100%;
+  padding-bottom: 240px;
+}
